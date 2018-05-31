@@ -1,0 +1,7 @@
+function printStars(n) {
+  var a = '*';
+  for (var x = 1; x <= n; x++){
+    console.log(a);
+    a = a + '*';
+  }
+}
